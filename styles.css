@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.modal{
+	height: 1px;
+	display: none;
+	z-index: 1;
+}
+
+.modal-content{
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 3px 0px gray;
+}
+.modal-header{
+	background-color: lightgreen;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
